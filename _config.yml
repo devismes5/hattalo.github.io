@@ -25,22 +25,22 @@ mode: 'r:bom|UTF-8'
 #source:  static/ersa
 
 # Meta
-title: hattalo github page
+title: Bruno Samueli's GitHub page
 email: hattalo@yahoo.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://hattalo.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bromveldt.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username:  hattalo
+github_username:  bromveldt
 env: production
 
 # Build
 
 markdown: kramdown
-title_start: 'Bruno Samuelian &#x40; GitHub &#x214B;'
+title_start: 'Bruno Samueli &#x40; GitHub &#x214B;'
 robots: none,noindex,nofollow,noarchive,nocache,noyaca
 viewport: width=device-width, initial-scale=1.0
 
@@ -68,18 +68,28 @@ defaults:
       permalink: "/cv/"
     values:
       layout: "cv" # overrides previous default layout
-      author: "Bruno Sambelidze"
-      topic: "curriculum vita1e"
+      author: "Bruno Samueli"
+      topic: "curriculum vitae"
 
-exclude: ['assets/ersa', 'assets/lang', 'icons', 'templates', 'docker-compose.yml', 'package.json', 'yarn.lock', 'Gemfile.lock']
+exclude: [
+  'assets/ersa',
+  'assets/lang',
+  'icons',
+  'templates',
+  'README.md',
+  'docker-compose.yml',
+  'package.json',
+  'yarn.lock',
+  'Gemfile.lock'
+]
 
 # CSS
 css:
-  pure:   https://unpkg.com/purecss@1.0.1/build/pure-min.css
+  pure:   https://unpkg.com/purecss@3.0.0/build/pure-min.css
   pure_sha384: sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47
   pure_grids:
-    older_ie: https://unpkg.com/purecss@1.0.1/build/grids-responsive-old-ie-min.css
-    newer_ie: https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css
+    older_ie: https://unpkg.com/purecss@3.0.0/build/grids-responsive-old-ie-min.css
+    newer_ie: https://unpkg.com/purecss@3.0.0/build/grids-responsive-min.css
   marketing:
     older_ie: /assets/css/layouts/marketing-old-ie.css
     newer_ie: /assets/css/layouts/marketing.css
