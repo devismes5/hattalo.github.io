@@ -1,2 +1,2 @@
-# hattalo.github.io
+# brusam.github.io
 Bruno Samueli
