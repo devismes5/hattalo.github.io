@@ -6,17 +6,17 @@ dave:
     bitbucket        : dsmith
 bruno:
     name             : Bruno Samueli
-    email            : hattalo@yahoo.com
+    email            : Bruno.Samueli@proton.me
     twitter          : FauxBrunoSamueli
     github           : hattalo
     bitbucket        : hattalo
-    project_mobile   : +49 170 783-0002
+    project_mobile   : +49 160 3030-474
     project_email    : bruno.samueli@pm.me
     work_eligibility : Freiberufler
     project_availability : immediate
     websites :
       - id : github
-        url : https://www.github.com/hattalo/
+        url : https://www.github.com/bromveldt/
         label: GitHub
         enabled: true
       - id : linkedin
